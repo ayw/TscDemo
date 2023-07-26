@@ -2,30 +2,31 @@
 
 buildscript {
     repositories {
-        mavenLocal()
+//        mavenLocal()
+        google()
         mavenCentral()
         //佳博SDK仓库
-        maven {
-            url "http://118.31.6.84:8081/repository/maven-public/"
-            allowInsecureProtocol true
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/groups/public/'
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/repositories/google'
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin'
-        }
+//        maven {
+//            url "http://118.31.6.84:8081/repository/maven-public/"
+//            allowInsecureProtocol true
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/groups/public/'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/repositories/google'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin'
+//        }
 
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.1'
+        classpath 'com.android.tools.build:gradle:4.2.2'
         
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -34,25 +35,26 @@ buildscript {
 
 allprojects {
     repositories {
-        mavenLocal()
+//        mavenLocal()
+        google()
         mavenCentral()
 //        //佳博SDK仓库
-        maven {
-            url "http://118.31.6.84:8081/repository/maven-public/"
-            allowInsecureProtocol true
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/groups/public/'
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/repositories/google'
-        }
-        maven {
-            url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin'
-        }
+//        maven {
+//            url "http://118.31.6.84:8081/repository/maven-public/"
+//            allowInsecureProtocol true
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/groups/public/'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/repositories/google'
+//        }
+//        maven {
+//            url 'https://maven.aliyun.com/nexus/content/repositories/gradle-plugin'
+//        }
 
 
     }
